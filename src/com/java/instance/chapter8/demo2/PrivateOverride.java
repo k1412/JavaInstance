@@ -11,8 +11,8 @@ public class PrivateOverride {
     public static void main(String[] args){
         PrivateOverride privateOverride = new Derived();
         privateOverride.f();
-        //Derived derived = new Anny();
-        //derived.f();
+        Derived derived = new Anny();
+        derived.f();
     }
 }
 
@@ -21,8 +21,8 @@ class Derived extends PrivateOverride{
         print("public f()");
     }
 }
-    class Anny extends Derived{
-        public void f(){
-            print("anny's f()");
-      }
+class Anny extends Derived{
+   public void f(){
+     print("anny's f()");
+    }
 }
