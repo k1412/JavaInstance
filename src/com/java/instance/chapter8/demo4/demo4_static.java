@@ -8,7 +8,7 @@
  * <author>          <time>          <version>          <desc>
  * 作者姓名           修改时间           版本号              描述
  */
-package com.java.instance.chapter8;
+package com.java.instance.chapter8.demo4;
 import static com.java.instance.userDefinedPrint.Print.*;
 
 class StaticSuper{
